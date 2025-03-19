@@ -2,10 +2,43 @@
     --color-base: #333333;
     --color-base-figure-background: #F2EDED;
     --color-base-figure-border: #ccc;
+    --body-font: "Lora", serif;
+    --h1-font: "Oswald", sans-serif;
+    --h2-font: "Playfair Display", serif;
+    --figcaption-font: "Emblema One", system-ui;
+
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+#centro-distribuicao{
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+#rodape{
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+
+#rodape img{
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
+
+#familia-pelho{
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
 body{
     color: var(--color-base);
-    font-family: "Lora", serif;
+    font-family:var(--body-font);
     font-weight: 300;
     margin-left: auto;
     margin-right: auto;
@@ -14,18 +47,18 @@ body{
 h1{
     background-image: url(../Img/sobre-background.jpg);
     padding: 10px;
-    font-family: "Oswald", sans-serif;
+    font-family:var(--h1-font);
     font-weight: 700;
 }
 h2{
     border-bottom: 2px groove #333333;
     margin-top: 30px;
-    font-family: "Playfair Display", serif;
+    font-family:var(--h2-font);
     font-weight: 400;
 }
 figure{
-    background-color: var(--color-base-figure-background)
-    border: 1px solid var(var(--color-base-figure-border))
+    background-color: var(--color-base-figure-background);
+    border: 1px solid var(--color-base-figure-border);
     text-align: center;
     padding: 15px;
     margin: 30px;
@@ -33,7 +66,7 @@ figure{
 figcaption{
     font-style: italic;
     margin-top: 10px;
-    font-family: "Emblema One", system-ui;
+    font-family:var(--figcaption-font);
     font-weight: 400;
 }
 
