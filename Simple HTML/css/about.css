@@ -19,13 +19,13 @@ html{
     width: 550px;
 }
 
-#rodape{
+footer{
     color: #777;
     margin: 30px 0;
     padding: 30px 0;
 }
 
-#rodape img{
+footer img{
     margin-right: 30px;
     vertical-align: middle;
     width: 94px;
